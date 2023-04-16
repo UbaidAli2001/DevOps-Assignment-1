@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/main.js"></script>
+
+</head>
+<body>
+    <header>
+        
+        <a href="#projects" id="projects-link">
+            <h1 class="heading">Projects</h1>
+        </a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" id="home-link">Home</a></li>
+            <li><a href="projects.html" id="projects-link">Projects</a></li>
+            <li><a href="education.html" id="education-link">Education</a></li>
+        </ul>
+    </nav>
+    
+    <section id="projects">
+        <h2>Filter by Technology</h2>
+        <input type="text" id="filterInput" onkeyup="filterProjects()" placeholder="Type technology...">
+        <ul id="projectList">
+            <li data-technology="C#">Food Delivery Management System (C#)</li>
+            <li data-technology="Java">E-Commerce Website (Java)</li>
+            <li data-technology="Python">Smart Attendance System (Python)</li>
+            <li data-technology="C#">Restaurant Management System (C#)</li>
+            <li data-technology="Python">Fruit Disease Detection (Python)</li>
+            <li data-technology="Python">K-Means Document Clustering (Python)</li>
+            <!-- Add more project items here -->
+        </ul>
+    </section>
+    <footer>
+        <p>Contact: <a href="mailto:k190126@nu.edu.pk">k190126@nu.edu.pk</a></p>
+    </footer>
+    
+</body>
+</html>
